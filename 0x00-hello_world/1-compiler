@@ -1,2 +1,13 @@
 #!/bin/bash
-/usr/bin/gcc -c -g -std=c99 -Wall snmpy.o main.o -o snmpy
+#include <stdio.h>
+
+/**
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
+int main(void)
+{
+    printf("Holberton School");
+    return (0);
+    }
